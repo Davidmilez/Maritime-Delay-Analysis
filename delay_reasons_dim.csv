@@ -1,0 +1,8 @@
+Delay_Reason,Delay_Reason_ID
+Weather,1
+Custom,2
+Port Congestion,3
+Traffic,4
+Equipment,5
+Crew Issue,6
+Others,7
