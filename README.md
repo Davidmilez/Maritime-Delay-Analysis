@@ -30,3 +30,8 @@ key delay drivers in maritime operations.
 - Weather and port congestion are major delay drivers
 
 ## Repository Structure
+
+## Author
+**David Pomile**
+Aspiring Data Analyst | SQL • Python • Excel
+
