@@ -1,54 +1,32 @@
-# Maritime-Delay-Analysis
-End-to-end analysis of maritime vessel delays using Excel, Python, and SQL Server 
 # Maritime Delay Analysis
 
-## 📌 Project Overview
-This project analyzes maritime vessel delays to understand operational performance,
-identify major delay causes, and evaluate port efficiency.
+## Project Overview
+This project analyzes vessel delays across multiple ports using Excel, Python, and SQL.
+The goal is to evaluate on-time performance, identify high-risk ports, and understand
+key delay drivers in maritime operations.
 
-The analysis uses cleaned Excel data imported into SQL Server and explores delay
-patterns using structured SQL queries.
+## Dataset
+- Vessel arrival, berthing, and departure records
+- Planned vs actual turnaround time
+- Delay reasons and operational costs
 
----
+## Tools & Technologies
+- Excel (initial data cleaning & validation)
+- Python (pandas, numpy, matplotlib)
+- SQL Server (fact & dimension modeling, analysis)
+- GitHub (version control)
 
-## 🛠 Tools & Technologies
-- Microsoft Excel (data cleaning & preparation)
-- Python (data expansion, validation, and logic check)
-- SQL Server (data storage & querying)
-- GitHub (version control & documentation)
+## Analysis Performed
+- Delay calculation and classification (Early / On Time / Late)
+- KPI analysis (On-time performance, high-risk exposure)
+- Port-level risk assessment
+- Delay reason frequency and impact
+- Star-schema style modeling (Fact & Dimension tables)
 
----
+## Key Insights
+- Only ~15% of vessels arrived on time
+- Over 50% of vessels fall into high-risk delay categories
+- Certain ports consistently show higher average delays
+- Weather and port congestion are major delay drivers
 
-## 📊 Dataset Description
-The project uses two datasets:
-
-### 1. Maritime Operations Fact Table
-Contains vessel-level operational data, including:
-- Vessel ID
-- Port
-- Delay Days
-- Delay Status (On Time / Late)
-
-### 2. Delay Reasons Dimension Table
-Contains standardized delay reasons such as:
-- Weather
-- Crew Issues
-- Technical Problems
-- Port Congestion
-
----
-
-## 🔍 Key Analysis Performed
-- Total vessel movements analysis
-- Delay status distribution (On Time vs Late)
-- Average delay duration for delayed vessels
-- Port-level delay performance comparison
-
----
-
-## 📈 Key Insights
-- Approximately 50% of vessel movements were completed on time
-- Delayed vessels showed measurable average delay durations
-- Delay patterns varied by port, indicating operational differences
-
----
+## Repository Structure
